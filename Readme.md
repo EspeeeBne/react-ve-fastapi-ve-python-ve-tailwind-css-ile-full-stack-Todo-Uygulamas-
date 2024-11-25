@@ -1,6 +1,6 @@
 Todo Uygulaması
 
-Bu depo, hem back-end (FastAPI) hem de front-end (React) bileşenleriyle full stack bir Todo Uygulaması içermektedir. Aşağıda, projeyi yerel olarak çalıştırmak için adımları bulabilirsiniz.
+Bu depo, hem back-end (FastAPI) hem de front-end (React) bileşenleriyle tam yığın bir Todo Uygulaması içermektedir. Aşağıda, projeyi yerel olarak çalıştırmak için adımları bulabilirsiniz.
 
 Gereksinimler
 
@@ -18,15 +18,15 @@ Proje Yapısı
 
 Depo iki ana klasör içermektedir:
 
-fastapi-todo: back-end kodlarını (FastAPI) içerir.
+fastapi-todo: Back-end kodlarını (FastAPI) içerir.
 
-todo-frontend: front-end kodlarını (React) içerir.
+todo-frontend: Front-end kodlarını (React) içerir.
 
 Başlarken
 
-back-end Kurulumu (FastAPI)
+Back-End Kurulumu (FastAPI)
 
-back-end dizinine gidin:
+Back-end dizinine gidin:
 
 cd fastapi-todo
 
@@ -52,11 +52,11 @@ FastAPI sunucusunu çalıştırın:
 
 uvicorn main:app --reload
 
-back-end http://localhost:8000 adresinde çalışacaktır.
+Back-end http://localhost:8000 adresinde çalışacaktır.
 
-front-end Kurulumu (React)
+Front-End Kurulumu (React)
 
-front-end dizinine gidin:
+Front-end dizinine gidin:
 
 cd ../todo-frontend
 
@@ -76,7 +76,7 @@ veya yarn kullanıyorsanız:
 
 yarn start
 
-front-end http://localhost:3000 adresinde çalışacaktır.
+Front-end http://localhost:3000 adresinde çalışacaktır.
 
 Uygulamayı Çalıştırma
 
@@ -86,9 +86,8 @@ Uygulamaya tarayıcınızda http://localhost:3000 adresine giderek erişebilirsi
 
 Önemli Notlar
 
-FastAPI back-endta CORS'un React front-endtan gelen istekleri kabul edecek şekilde yapılandırıldığından emin olun (varsayılan olarak http://localhost:3000 olarak ayarlanmıştır).
+FastAPI back-end'te CORS'un React front-end'ten gelen istekleri kabul edecek şekilde yapılandırıldığından emin olun (varsayılan olarak http://localhost:3000 olarak ayarlanmıştır).
 
 Lisans
 
 Bu proje MIT Lisansı ile lisanslanmıştır - detaylar için LICENSE dosyasına bakınız.
-
