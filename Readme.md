@@ -68,6 +68,9 @@ veya yarn kullanıyorsanız:
 
 yarn install
 
+
+.env.example dosyasının adını .env yapın.
+
 Geliştirme sunucusunu başlatın:
 
 npm start
