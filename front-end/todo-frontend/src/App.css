@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.App {
+  @apply text-center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  @apply bg-gradient-to-br from-gray-900 to-gray-800 min-h-screen flex flex-col items-center justify-center text-white;
+  font-size: calc(10px + 2vmin);
+  @apply shadow-2xl;
+}
+
+.App-link {
+  @apply text-blue-400 hover:text-blue-600 transition-colors;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.task-form {
+  @apply p-6 bg-white rounded-2xl shadow-2xl transition-transform transform hover:scale-105;
+}
+
+.task-input {
+  @apply p-3 border border-gray-300 rounded-lg w-full mb-4 focus:outline-none focus:border-blue-500;
+}
+
+.task-button {
+  @apply bg-gradient-to-r from-blue-500 to-indigo-500 text-white px-6 py-3 rounded-lg cursor-pointer hover:bg-gradient-to-r hover:from-blue-600 hover:to-indigo-600 transition-colors;
+}
+
+
+.task-list {
+  @apply p-6 bg-gray-50 rounded-2xl shadow-md mt-6;
+}
+
+.task-title {
+  @apply text-2xl font-extrabold mb-6;
+}
+
+.task-items {
+  @apply list-none p-0;
+}
+
+.task-item {
+  @apply p-4 border-b border-gray-300 flex flex-col gap-4 hover:bg-gray-100 transition;
+}
+
+.task-actions {
+  @apply flex gap-2 mt-4;
+}
+
+.task-action-button {
+  @apply px-3 py-2 rounded-lg cursor-pointer;
+}
+
+.task-complete-button {
+  @apply bg-yellow-400 text-white hover:bg-yellow-500;
+}
+
+.task-delete-button {
+  @apply bg-red-400 text-white hover:bg-red-500;
+}
+
+
+.created-by {
+  @apply mt-12 text-sm text-gray-600 italic text-right;
+}
+
+
+.container {
+  @apply mx-auto p-6 max-w-screen-md;
+}
+
+.header-title {
+  @apply text-3xl font-black mb-6;
+}
+
+.welcome-message {
+  @apply mb-6 text-lg text-gray-700;
+}
