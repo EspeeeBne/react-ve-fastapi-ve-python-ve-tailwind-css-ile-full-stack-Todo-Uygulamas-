@@ -88,6 +88,12 @@ Uygulamaya tarayıcınızda http://localhost:3000 adresine giderek erişebilirsi
 
 FastAPI back-end'te CORS'un React front-end'ten gelen istekleri kabul edecek şekilde yapılandırıldığından emin olun (varsayılan olarak http://localhost:3000 olarak ayarlanmıştır).
 
+
+Windows'a düzgün ve stabil bir Sql kuramadığım ve Sql kurulumunu anlatmak (windows genelinde normalden çok zor sql kurmak, ubuntu kullanınca direkt kullanıyorum ama kişisel bilgisayarım windows) bundan dolayı sql için .json kullandım back-end'de o da db sonuçta söz ikinci bir bilgisayarım olunca içine ubuntu kurup sql kullanan bir repository yayınlayacağım.
+
+
+
+
 Lisans
 
 Bu proje MIT Lisansı ile lisanslanmıştır - detaylar için LICENSE dosyasına bakınız.
